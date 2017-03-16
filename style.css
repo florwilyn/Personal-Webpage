@@ -1,0 +1,228 @@
+@font-face {
+	font-family: 'Autumn in November';
+	src: url('fonts/autumn/Autumn in November.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Bananas Personal Use';
+	src: url('fonts/autumn/BananasPersonalUse.ttf') format('truetype');
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Autumn in November";
+  color: #5ac5cb;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 2;
+  margin-top: 10px;
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+
+body {
+	background-image: url("icons/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	overflow-y: scroll;
+}
+
+#info{
+	top: 3px;
+	position: relative;
+	height: auto;
+  	width: auto;
+  	background-color: #d0edf3;
+}
+
+#description-1 {
+	font-size: 20px;
+	font-family: "Autumn in November";
+	color: #5ac5cb;
+	text-align: center;
+	width: 100%;
+	height: 0.417in;
+	z-index: 3;
+	top: 95px;
+	position: absolute;
+}
+
+#name{
+	font-size: 28px;
+	top: 19.5px;
+	font-family: "Bananas Personal Use";
+	color: black;
+	text-align: center;
+	position: relative;
+	height: 85px;
+}
+
+#image{
+	border-radius: 50%;
+/*	border-style: solid;
+	border-color: black;*/
+	top: 3px;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	margin-left: 10px;
+	float: left;
+}
+
+#profile{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+.card {
+  background: #5ac5cb;
+  border-radius: 2px;
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  /*display:table-cell;*/
+  text-align: center;
+  margin: 10px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background: #d0edf3;
+  font-size: 25px;
+  font-family: "Autumn in November";
+
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  font-size: 25px;
+  font-family: "Autumn in November";
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background: #d0edf3;
+  font-size: 25px;
+   font-family: "Autumn in November";
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  background: #d0edf3;
+  font-size: 23px;
+   font-family: "Autumn in November";
+}
+
+.card-5 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-size: 25px;
+  font-family: "Autumn in November";
+}
+
+.card-6 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   background: #d0edf3;
+   font-size: 25px;
+   font-family: "Autumn in November";
+}
+
+.card-7 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-size: 25px;
+   font-family: "Autumn in November";
+   background-image: url(icons/icon_1.png);
+   background-size: 180px 180px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+table {
+	width: 100%;
+	margin-right:auto;
+    margin-left:auto;
+}
+
+td{
+	text-align: center;
+}
+
+.table{
+		display:table;
+        margin-right:auto;
+        margin-left:auto;
+        width:100%;
+        text-align: center;
+        margin-top: 170px;
+}
+
+.data{
+	text-align: center;
+}
+
+.card p{
+	margin: 5px;
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+.content p{
+	width: 100%;
+	height: 100%;
+	float: left;
+	z-index:0;
+	margin: auto;
+}
+
+#title{
+	top: 0.2px;
+	width: 100%;
+	height: 150px;
+	position: fixed;
+	background-color: black;
+	color: rgb( 228, 31, 38 );
+	z-index: 2;
+}
+
+#icon{
+	position: relative;
+	text-align: center;
+}
+
+.card-7 img{
+	top: 10px;
+	width: 180px;
+	height: 180px;
+	position: relative;
+}
+
+.card-7 p{
+	position: relative;
+}
+
+.content {
+	display: inline;
+}
+
+#accounts img{
+	top: 20px;
+	width: 60px;
+	height: 60px;
+	border-style: none;
+}
+
+#accounts{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.icon:hover{
+	background-color: black;
+}
+
+
